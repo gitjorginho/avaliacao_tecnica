@@ -26,5 +26,6 @@ Route::post('/capturar', 'CarController@capturar')->name('car_capturar');
 Route::delete('/deletar_carro', 'CarController@delete')->name('deletar_carro');
 Route::get('/table_list', 'CarController@tableList')->name('table_list');
 
+Route::post('/login_usuario', 'UsuarioController@login')->name('login_usuario');
 
 
