@@ -7,3 +7,10 @@
 5 - $ php artisan key:generate<br>
 6 - $ php artisan db:seed<br>
 7 - Pronto, agora pode acessar com usuario: ‘admin’ e senha: ‘admin’</p>
+<p class="has-line-data" data-line-start="13" data-line-end="20">obs.: no arquivo .env voce pode configurar sua conexao com o banco como segue:<br>
+DB_CONNECTION=mysql<br>
+DB_HOST=127.0.0.1<br>
+DB_PORT=3306<br>
+DB_DATABASE=laravel<br>
+DB_USERNAME=root<br>
+DB_PASSWORD=</p>
