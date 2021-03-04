@@ -9,6 +9,12 @@ use Illuminate\Support\Facades\Auth;
 class CarController extends Controller
 {
 
+   function __construct()
+   {
+      $this->middleware('auth'); 
+   } 
+
+
     function capturarCarros (){
        return view('capturar_carros');
     }
